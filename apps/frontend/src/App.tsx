@@ -13,6 +13,7 @@ export function App() {
       {page === "form" && <Form />}
       {page === "interview" && <Interview />}
       {page === "result" && <Result />}
+      
     </div>
   )
 }
